@@ -16,6 +16,13 @@ Forget Paper notebooks, with a digital planner you can now improve your producti
 
 ![Alt text](assets/screengrab.png)
 
+## Links
+
+https://github.com/Etinago/Digital-Daily-Planner
+
+https://etinago.github.io/Digital-Daily-Planner/
+
+
 ## Installation
 n/a
 
