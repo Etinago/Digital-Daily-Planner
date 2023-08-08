@@ -20,7 +20,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -32,9 +32,19 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <div class="timeblocks">
+        <div class="timeblock row">
+          <div class="col-md-1 hour">9 AM</div>
+          <textarea class="col-md-10 description"></textarea>
+          <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+        <!-- Add more timeblocks for other hours -->
+      </div>
+      
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
